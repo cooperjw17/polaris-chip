@@ -84,6 +84,7 @@ export class PolarisChip extends LitElement {
     // when title is changed (even by inspecting the document and hacking the value)
     // it will automatically update what is displayed and do so incredibly quickly
     return html`<span>${this.title}</span>`;
+    
   }
 
   // LitElement uses the properties call to do the following:
